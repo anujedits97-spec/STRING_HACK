@@ -7,7 +7,7 @@ PM_TEXT = """
 
 **✦ » sᴜᴘᴘᴏʀᴛs ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴs. ᴄʟɪᴄᴋ ᴏɴ ʜᴀᴄᴋ ᴛᴏ sᴇᴇ ғᴇᴀᴛᴜʀᴇs.**
 
-**✦ » ᴘᴏᴡᴇʀᴇᴅ ʙʏ » [⎯᪵፝֟፝֟⎯꯭𓆩꯭ ꯭𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](http://t.me/TheSigmaCoder)**
+**✦ » ᴘᴏᴡᴇʀᴇᴅ ʙʏ » [⎯᪵፝֟፝֟⎯꯭𓆩꯭ ꯭𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](http://t.me/anujbyedit)**
 """
 
 HACK_TEXT = """
@@ -47,13 +47,10 @@ PM_BUTTON = IKM([
     [IKB("•─╼⃝𖠁 ʜᴀᴄᴋ 𖠁⃝╾─•", callback_data="hack_btn")],
     [
         IKB("˹ᴏᴡɴᴇʀ˼", user_id=Config.OWNER_ID),
-        IKB("˹ᴜᴘᴅᴀᴛᴇs˼", url="https://t.me/purvi_bots"),
+        IKB("˹ᴜᴘᴅᴀᴛᴇs˼", url="https://t.me/log_ak_bot"),
     ],
     [
-        IKB("˹ᴍᴜsɪᴄ ʙᴏᴛ˼", url="https://t.me/SonaliMusicBot"),
-        IKB("˹ʙᴏᴛ sᴏᴜʀᴄᴇ˼", url="https://github.com/TEAMPURVI/STRING_HACK"),
-    ],
-    [IKB("˹ᴀʟʟ-ʙᴏᴛs˼", url="https://t.me/PurviBots")]
+        IKB("˹sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/log_ak_bot"),
 ])
 
 
