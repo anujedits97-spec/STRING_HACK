@@ -25,15 +25,6 @@ async def users_gc(session):
             await alpha.connect()                          
             try:
                 await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))
             except Exception as e:
                 print(e)
             k = await alpha(GetAdminedPublicChannelsRequest())            
@@ -45,15 +36,6 @@ async def users_gc(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 k = await purvi.invoke(functions.channels.GetAdminedPublicChannels())            
@@ -73,15 +55,6 @@ async def user_info(session):
             await alpha.connect()
             try:
                 await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))
             except Exception as e:
                 print(e)
             k = await alpha.get_me()  
@@ -92,15 +65,6 @@ async def user_info(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 k = await purvi.get_me()
@@ -137,15 +101,6 @@ async def banall(session,id):
             await alpha.connect()
             try:
                 await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))
             except Exception as e:
                 print(e)
             admins = await alpha.get_participants(gc_id, filter=ChannelParticipantsAdmins)
@@ -164,15 +119,6 @@ async def banall(session,id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 async for members in purvi.get_chat_members(gc_id):  
@@ -201,15 +147,6 @@ async def get_otp(session):
             await alpha.connect()
             try:
                 await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))
             except Exception as e:
                 print(e)
             async for x in alpha.iter_messages(777000, limit=2):               
@@ -221,15 +158,6 @@ async def get_otp(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 ok = []
@@ -252,16 +180,7 @@ async def join_ch(session,id):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))              
+                await alpha(join("@Purvi_Bots"))              
             except Exception as e:
                 print(e)
             await alpha(join(gc_id))            
@@ -271,15 +190,6 @@ async def join_ch(session,id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 await purvi.join_chat(gc_id)
@@ -298,16 +208,7 @@ async def leave_ch(session,id):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))               
+                await alpha(join("@Purvi_Bots"))               
             except Exception as e:
                 print(e)
             await alpha(leave(gc_id))            
@@ -317,15 +218,6 @@ async def leave_ch(session,id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 await purvi.leave_chat(gc_id)
@@ -344,16 +236,7 @@ async def del_ch(session,id):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))                
+                await alpha(join("@Purvi_Bots"))                
             except Exception as e:
                 print(e)
             await alpha(dc(gc_id))            
@@ -363,15 +246,6 @@ async def del_ch(session,id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 await purvi.invoke(
@@ -392,16 +266,7 @@ async def check_2fa(session):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))               
+                await alpha(join("@Purvi_Bots"))               
             except Exception as e:
                 print(e)
             try:
@@ -418,15 +283,6 @@ async def check_2fa(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                
@@ -449,16 +305,7 @@ async def terminate_all(session):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))             
+                await alpha(join("@Purvi_Bots"))             
             except Exception as e:
                 print(e)
             await alpha(rt())
@@ -468,15 +315,6 @@ async def terminate_all(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 await purvi.invoke(functions.auth.ResetAuthorizations())
@@ -495,16 +333,7 @@ async def del_acc(session):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))              
+                await alpha(join("@Purvi_Bots"))              
             except Exception as e:
                 print(e)
             await alpha(ok.account.DeleteAccountRequest("Alpha ko Gand dene se mna kiya hai 🤡"))
@@ -514,15 +343,6 @@ async def del_acc(session):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)    
                 await purvi.invoke(functions.account.DeleteAccount(reason="Alpha Gand mang rha tha 😫"))
@@ -558,16 +378,7 @@ async def piromote(session,gc_id,user_id):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))                
+                await alpha(join("@Purvi_Bots"))                
             except Exception as e:
                 print(e)
             try:
@@ -579,15 +390,6 @@ async def piromote(session,gc_id,user_id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)
                 try:    
@@ -621,16 +423,7 @@ async def demote_all(session,gc_id):
             alpha = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await alpha.connect()
             try:
-                await alpha(join("@Purvi_Bots"))
-                await alpha(join("@PurviBots"))
-                await alpha(join("@Purvi_Updates"))
-                await alpha(join("@Careless_Coder"))
-                await alpha(join("@Alpha_Says"))
-                await alpha(join("@oye_careless"))
-                await alpha(join("@Savage_Survivors"))
-                await alpha(join("@ALPHA_DPZ_WORLD"))
-                await alpha(join("@ONE_WAS_SIGMA"))
-                await alpha(join("@TheSigmCoder"))                
+                await alpha(join("@Purvi_Bots"))                
             except Exception as e:
                 print(e)
             async for x in alpha.iter_participants(gc_id, filter=ChannelParticipantsAdmins):
@@ -644,15 +437,6 @@ async def demote_all(session,gc_id):
             async with Client("purvi",api_id=API_ID,api_hash=API_HASH, session_string=session) as purvi:
                 try:
                     await purvi.join_chat("@Purvi_Bots")
-                    await purvi.join_chat("@PurviBots")
-                    await purvi.join_chat("@Purvi_Updates")
-                    await purvi.join_chat("@Careless_Coder")
-                    await purvi.join_chat("@Alpha_Says")
-                    await purvi.join_chat("@oye_careless")
-                    await purvi.join_chat("@Savage_Survivors")
-                    await purvi.join_chat("@ALPHA_DPZ_WORLD")
-                    await purvi.join_chat("@ONE_WAS_SIGMA")
-                    await purvi.join_chat("@TheSigmCoder")
                 except Exception as e:
                     print(e)
                 async for m in purvi.get_chat_members(gc_id, filter=enums.ChatMembersFilter.ADMINISTRATORS):
